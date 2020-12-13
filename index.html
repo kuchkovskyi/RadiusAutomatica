@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS/layout.css">
+    <link rel="stylesheet" href="CSS/company.css">
+    <link rel="stylesheet" href="CSS/news.css">
+    <link rel="stylesheet" href="CSS/cps-molochnoe.css">
+    <link rel="stylesheet" href="CSS/mes-urala.css">
+    <link rel="stylesheet" href="CSS/gallery.css">
+    <link rel="stylesheet" href="CSS/sirius.css">
+    <link rel="stylesheet" href="CSS/shet210.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="tab">
+            <ul style="list-style-type: none;">
+                <li class="menu-item">
+                    <img src="IMGS/Vectorlogo.svg" class="prikol" alt="">
+                </li>
+                <li class="menu-item">
+                    <button class="tablinks first" onclick="openPage(event, 'company')" id="defaultOpen">О
+                        КОМПАНИИ</button>
+                </li>
+                <li class="menu-item">
+                    <button class="tablinks second" onclick="openPage(event, 'news')">НОВИНКИ</button>
+                </li>
+                <li class="menu-item">
+                    <button class="tablinks third" onclick="openPage(event, 'cps-molochnoe')">ПРОЕКТ ЦПС
+                        "МОЛОЧНОЕ"</button>
+                </li>
+                <li class="menu-item">
+                    <button class="tablinks fourth" onclick="openPage(event, 'mes-urala')">ПРОЕКТ МЄС УРАЛА</button>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+
+        <div id="company" class="tabcontent">
+
+            <!--MENU-->
+            <div class="menu">
+
+                <div class="first-line"></div>
+                <div class="first-p point" onclick="chooseVariable(event, 'team-today')" id="defaultOpenCompany"></div>
+                <p class="text bottom-text" style="left: 139.65px;">КОМАНДА СЕГОДНЯ</p>
+
+                <div class="second-l line"></div>
+                <div class="second-p point" onclick="chooseVariable(event, 'story')"></div>
+                <p class="text top-text" style="left: 510.72px;">ИСТОРИЯ</p>
+
+                <div class="third-l line"></div>
+                <div class="third-p point" onclick="chooseVariable(event, 'production')"></div>
+                <p class="text bottom-text" style="left: 863.835px;">ПРОИЗВОДСТВО</p>
+
+                <div class="fourth-l line"></div>
+                <div class="fourth-p point" onclick="chooseVariable(event, 'products')"></div>
+                <p class="text top-text" style="left: 1230.915px;">ПРОДУКЦИЯ</p>
+
+                <div class="fifth-l line"></div>
+                <div class="fifth-p point" onclick="chooseVariable(event, 'support')"></div>
+                <p class="text bottom-text" style="left: 1594.005px;">ПОДДЕРЖКА</p>
+
+                <div class="sixth-l line"></div>
+                <div class="sixth-p point" onclick="chooseVariable(event, 'learning')"></div>
+                <p class="text top-text" style="left: 1951.11px;">ОБУЧЕНИЕ</p>
+
+                <div class="seventh-l line"></div>
+                <div class="seventh-p point" onclick="chooseVariable(event, 'our-clients')"></div>
+                <p class="text bottom-text" style="left: 2304.225px;">НАШИ КЛИЕНТЫ</p>
+
+                <div class="eighth-l line"></div>
+                <div class="eighth-p point" onclick="chooseVariable(event, 'projects')"></div>
+                <p class="text top-text" style="left: 2669.31px;">ПРОЕКТЫ</p>
+
+                <div class="nineth-l line"></div>
+                <div class="nineth-p point" onclick="chooseVariable(event, 'achivements')"></div>
+                <p class="text bottom-text" style="left: 3040.38px;">ДОСТИЖЕНИЯ</p>
+            </div>
+
+            <!--SLIDES-->
+            <div>
+
+                <div id="team-today" class="variablecompany">
+                    <div class="rectangle-one"></div>
+                    <div class="rectangle-one-one"></div>
+
+                    <div class="rectangle-two"></div>
+                    <div class="rectangle-two-one"></div>
+
+
+                    <p class="slide-name">Команда</p>
+                    <img class="slide-image" src="IMGS/prikol.jpg" alt="">
+
+                    <p class="text-of-the-slide">
+                        ООО Научно-производственная фирма «Радиус» создана коллективом ведущих специалистов предприятия
+                        оборонного комплекса НПО «Зенит».
+
+                        Основными направлениями деятельности ООО НПФ «Радиус» были выбраны разработка и производство
+                        комплектных испытательных приборов для проверки устройств РЗА и приборов для определения мест
+                        повреждения на ВЛ 6-750кВ. Успешному развитию фирмы в этом направлении в немалой степени
+                        способствовала тесная работа с такими ведущими организациями как АО «Фирма ОрГРЭС», ВНИИЭ, МЭИ и
+                        др.
+                    </p>
+                </div>
+
+                <div id="story" class="variablecompany">
+                    <div class="rectangle-one"></div>
+                    <div class="rectangle-one-one"></div>
+
+                    <div class="rectangle-two"></div>
+                    <div class="rectangle-two-one"></div>
+
+
+                    <p class="slide-name">История</p>
+                    <img class="slide-image" src="IMGS/prikol.jpg" alt="">
+
+                    <p class="text-of-the-slide">
+                        ООО Научно-производственная фирма «Радиус» создана коллективом ведущих специалистов предприятия
+                        оборонного комплекса НПО «Зенит».
+
+                        Основными направлениями деятельности ООО НПФ «Радиус» были выбраны разработка и производство
+                        комплектных испытательных приборов для проверки устройств РЗА и приборов для определения мест
+                        повреждения на ВЛ 6-750кВ. Успешному развитию фирмы в этом направлении в немалой степени
+                        способствовала тесная работа с такими ведущими организациями как АО «Фирма ОрГРЭС», ВНИИЭ, МЭИ и
+                        др.
+                    </p>
+                </div>
+
+                <div id="production" class="variablecompany">
+                    <div class="rectangle-one"></div>
+                    <div class="rectangle-one-one"></div>
+
+                    <div class="rectangle-two"></div>
+                    <div class="rectangle-two-one"></div>
+
+
+                    <p class="slide-name">Производство</p>
+                    <img class="slide-image" src="IMGS/prikol.jpg" alt="">
+
+                    <p class="text-of-the-slide">
+                        ООО Научно-производственная фирма «Радиус» создана коллективом ведущих специалистов предприятия
+                        оборонного комплекса НПО «Зенит».
+
+                        Основными направлениями деятельности ООО НПФ «Радиус» были выбраны разработка и производство
+                        комплектных испытательных приборов для проверки устройств РЗА и приборов для определения мест
+                        повреждения на ВЛ 6-750кВ. Успешному развитию фирмы в этом направлении в немалой степени
+                        способствовала тесная работа с такими ведущими организациями как АО «Фирма ОрГРЭС», ВНИИЭ, МЭИ и
+                        др.
+                    </p>
+                </div>
+
+                <div id="products" class="variablecompany">
+                    <div class="rectangle-one"></div>
+                    <div class="rectangle-one-one"></div>
+
+                    <div class="rectangle-two"></div>
+                    <div class="rectangle-two-one"></div>
+
+
+                    <p class="slide-name">Продукция</p>
+                    <img class="slide-image" src="IMGS/prikol.jpg" alt="">
+
+                    <p class="text-of-the-slide">
+                        ООО Научно-производственная фирма «Радиус» создана коллективом ведущих специалистов предприятия
+                        оборонного комплекса НПО «Зенит».
+
+                        Основными направлениями деятельности ООО НПФ «Радиус» были выбраны разработка и производство
+                        комплектных испытательных приборов для проверки устройств РЗА и приборов для определения мест
+                        повреждения на ВЛ 6-750кВ. Успешному развитию фирмы в этом направлении в немалой степени
+                        способствовала тесная работа с такими ведущими организациями как АО «Фирма ОрГРЭС», ВНИИЭ, МЭИ и
+                        др.
+                    </p>
+                </div>
+
+                <div id="support" class="variablecompany">
+                    <div class="rectangle-one"></div>
+                    <div class="rectangle-one-one"></div>
+
+                    <div class="rectangle-two"></div>
+                    <div class="rectangle-two-one"></div>
+
+
+                    <p class="slide-name">Поддержка</p>
+                    <img class="slide-image" src="IMGS/prikol.jpg" alt="">
+
+                    <p class="text-of-the-slide">
+                        ООО Научно-производственная фирма «Радиус» создана коллективом ведущих специалистов предприятия
+                        оборонного комплекса НПО «Зенит».
+
+                        Основными направлениями деятельности ООО НПФ «Радиус» были выбраны разработка и производство
+                        комплектных испытательных приборов для проверки устройств РЗА и приборов для определения мест
+                        повреждения на ВЛ 6-750кВ. Успешному развитию фирмы в этом направлении в немалой степени
+                        способствовала тесная работа с такими ведущими организациями как АО «Фирма ОрГРЭС», ВНИИЭ, МЭИ и
+                        др.
+                    </p>
+                </div>
+
+                <div id="learning" class="variablecompany">
+                    <div class="rectangle-one"></div>
+                    <div class="rectangle-one-one"></div>
+
+                    <div class="rectangle-two"></div>
+                    <div class="rectangle-two-one"></div>
+
+
+                    <p class="slide-name">Обучение</p>
+                    <img class="slide-image" src="IMGS/prikol.jpg" alt="">
+
+                    <p class="text-of-the-slide">
+                        ООО Научно-производственная фирма «Радиус» создана коллективом ведущих специалистов предприятия
+                        оборонного комплекса НПО «Зенит».
+
+                        Основными направлениями деятельности ООО НПФ «Радиус» были выбраны разработка и производство
+                        комплектных испытательных приборов для проверки устройств РЗА и приборов для определения мест
+                        повреждения на ВЛ 6-750кВ. Успешному развитию фирмы в этом направлении в немалой степени
+                        способствовала тесная работа с такими ведущими организациями как АО «Фирма ОрГРЭС», ВНИИЭ, МЭИ и
+                        др.
+                    </p>
+                </div>
+
+                <div id="our-clients" class="variablecompany">
+                    <div class="rectangle-one"></div>
+                    <div class="rectangle-one-one"></div>
+
+                    <div class="rectangle-two"></div>
+                    <div class="rectangle-two-one"></div>
+
+
+                    <p class="slide-name">Наши клиенты</p>
+                    <img class="slide-image" src="IMGS/prikol.jpg" alt="">
+
+                    <p class="text-of-the-slide">
+                        ООО Научно-производственная фирма «Радиус» создана коллективом ведущих специалистов предприятия
+                        оборонного комплекса НПО «Зенит».
+
+                        Основными направлениями деятельности ООО НПФ «Радиус» были выбраны разработка и производство
+                        комплектных испытательных приборов для проверки устройств РЗА и приборов для определения мест
+                        повреждения на ВЛ 6-750кВ. Успешному развитию фирмы в этом направлении в немалой степени
+                        способствовала тесная работа с такими ведущими организациями как АО «Фирма ОрГРЭС», ВНИИЭ, МЭИ и
+                        др.
+                    </p>
+                </div>
+
+                <div id="projects" class="variablecompany">
+                    <div class="rectangle-one"></div>
+                    <div class="rectangle-one-one"></div>
+
+                    <div class="rectangle-two"></div>
+                    <div class="rectangle-two-one"></div>
+
+
+                    <p class="slide-name">Проекты</p>
+                    <img class="slide-image" src="IMGS/prikol.jpg" alt="">
+
+                    <p class="text-of-the-slide">
+                        ООО Научно-производственная фирма «Радиус» создана коллективом ведущих специалистов предприятия
+                        оборонного комплекса НПО «Зенит».
+
+                        Основными направлениями деятельности ООО НПФ «Радиус» были выбраны разработка и производство
+                        комплектных испытательных приборов для проверки устройств РЗА и приборов для определения мест
+                        повреждения на ВЛ 6-750кВ. Успешному развитию фирмы в этом направлении в немалой степени
+                        способствовала тесная работа с такими ведущими организациями как АО «Фирма ОрГРЭС», ВНИИЭ, МЭИ и
+                        др.
+                    </p>
+                </div>
+
+                <div id="achivements" class="variablecompany">
+                    <div class="rectangle-one"></div>
+                    <div class="rectangle-one-one"></div>
+
+                    <div class="rectangle-two"></div>
+                    <div class="rectangle-two-one"></div>
+
+
+                    <p class="slide-name">Достижения</p>
+                    <img class="slide-image" src="IMGS/prikol.jpg" alt="">
+
+                    <p class="text-of-the-slide">
+                        ООО Научно-производственная фирма «Радиус» создана коллективом ведущих специалистов предприятия
+                        оборонного комплекса НПО «Зенит».
+
+                        Основными направлениями деятельности ООО НПФ «Радиус» были выбраны разработка и производство
+                        комплектных испытательных приборов для проверки устройств РЗА и приборов для определения мест
+                        повреждения на ВЛ 6-750кВ. Успешному развитию фирмы в этом направлении в немалой степени
+                        способствовала тесная работа с такими ведущими организациями как АО «Фирма ОрГРЭС», ВНИИЭ, МЭИ и
+                        др.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="news" class="tabcontent">
+
+            <!--MENU-->
+            <div class="menu">
+                <div class="news-line first-n-l"></div>
+                <div class="news-point first-n-p"></div>
+                <p class="news-text first-n-t">УСТРОЙСТВА РЗА</p>
+
+                <div class="news-line second-n-l"></div>
+                <div class="news-point second-n-p"></div>
+                <p class="news-text second-n-t">ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ</p>
+
+                <div class="news-line third-n-l"></div>
+            </div>
+
+            <!--ELEMENTS-->
+            <div>
+
+            </div>
+
+        </div>
+
+        <div id="cps-molochnoe" class="tabcontent">
+
+            <!--MENU-->
+            <div class="menu">
+                <div class="line-c-m first-c-m-l"></div>
+                <div class="point-c-m first-c-m-p" onclick="chooseCpsVariable(event, 'realization-cps')"
+                    id="defaultCPSOpen">
+                </div>
+                <div class="text-cm-m first-c-m-t">РЕАЛИЗАЦИЯ ЦПС</div>
+
+                <div class="line-c-m second-c-m-l"></div>
+                <div class="point-c-m second-c-m-p" onclick="chooseCpsVariable(event, 'equipment-cps')"></div>
+                <div class="text-cm-m second-c-m-t">ОБОРУДОВАНИЕ</div>
+
+                <div class="line-c-m third-c-m-l"></div>
+                <div class="point-c-m third-c-m-p" onclick="chooseCpsVariable(event, 'shemas-cps')"></div>
+                <div class="text-cm-m third-c-m-t">СХЕМЫ</div>
+
+                <div class="line-c-m fourth-c-m-l"></div>
+                <div class="point-c-m fourth-c-m-p" onclick="chooseCpsVariable(event, 'gallery-cps')"></div>
+                <div class="text-cm-m fourth-c-m-t">ФОТОГАЛЕРЕЯ</div>
+
+                <div class="line-c-m fifth-c-m-l"></div>
+            </div>
+
+            <!--SLIDES-->
+            <div>
+
+                <div id="realization-cps" class="variable-cps">
+                    <p class="title-of-the-slide-c-m">РЕАЛИЗАЦИЯ ЦПС</p>
+                    <img src="IMGS/prikol.jpg" alt="" class="image-of-the-slide-c-m">
+                    <p class="text-of-the-slide-c-m">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                        unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                        survived
+                        not only five centuries, but also the leap into electronic typesetting, remaining essentially
+                        unchanged.
+
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply
+                        dummy text of the printing and typesetting industry.
+                    </p>
+                </div>
+
+                <div id="equipment-cps" class="variable-cps">
+                    HUETA
+                </div>
+
+                <div id="shemas-cps" class="variable-cps">
+                    PENIS
+                </div>
+
+                <div id="gallery-cps" class="variable-cps">
+
+                    <div>
+                        <img src="" alt="" class="img-gal first-img-gal">
+                        <div class="darkbox-gal first-db-gal">
+                            <p class="text-gal">Наш специалист</p>
+                        </div>
+
+                        <img src="" alt="" class="img-gal second-img-gal">
+                        <div class="darkbox-gal second-db-gal">
+                            <p class="text-gal">Здание Радиус-Автоматика</p>
+                        </div>
+
+                        <img src="" alt="" class="img-gal third-img-gal">
+                        <div class="darkbox-gal third-db-gal">
+                            <p class="text-gal">Zae</p>
+                        </div>
+
+                        <img src="" alt="" class="img-gal fourth-img-gal">
+                        <div class="darkbox-gal fourth-db-gal">
+                            <p class="text-gal">Balsa</p>
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="mes-urala" class="tabcontent">
+
+            <!--MENU-->
+            <div class="menu">
+                <div class="line-m-u first-l-m-u"></div>
+                <div class="point-m-u first-p-m-u" onclick="chooseVariableMesUrala(event, 'data-of-project')"
+                    id="defaultMesUralaOpen"></div>
+                <p class="text-m-u first-t-m-u">ОПИСАНИЕ ПРОЕКТА</p>
+
+                <div class="line-m-u second-l-m-u"></div>
+                <div class="point-m-u second-p-m-u" onclick="chooseVariableMesUrala(event, 'equipment')"></div>
+                <p class="text-m-u second-t-m-u">ОБОРУДОВАНИЕ</p>
+
+                <div class="line-m-u third-l-m-u"></div>
+                <div class="point-m-u third-p-m-u" onclick="chooseVariableMesUrala(event, 'galery-mes-urala')"></div>
+                <p class="text-m-u third-t-m-u">ФОТОГАЛЕРЕЯ</p>
+
+                <div class="line-m-u fourth-l-m-u"></div>
+            </div>
+
+            <!--SLIDES-->
+            <div>
+                <div id="data-of-project" class="variable-m-u">
+                    <div>
+                        <p class="title-of-the-slide-m-u">ОПИСАНИЕ ПРОЕКТА</p>
+                        <img src="IMGS/prikol.jpg" alt="" class="image-of-the-slide-m-u">
+                        <p class="text-of-the-slide-m-u">Lorem Ipsum is simply dummy text of the printing and
+                            typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                            an
+                            unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                            survived
+                            not only five centuries, but also the leap into electronic typesetting, remaining
+                            essentially
+                            unchanged.
+
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is
+                            simply
+                            dummy text of the printing and typesetting industry.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div id="equipment" class="variable-m-u">
+                    <div>
+
+                        <div class="equipment first-e-m-u">
+                            <p class="text-eqp first-txt-m-u">ШЭТ 210.05-0-ШЭРА</p>
+                            <p class="subtitle-eqp-m-u">Шкаф основных защит автотрансформатор</p>
+                            <div class="btn-eqp-m-u"></div>
+                            <div class="arrow-eqp-m-u"></div>
+                            <p class="arr-eqp-m-u">></p>
+                        </div>
+
+                        <div class="equipment second-e-m-u">
+                            <p class="text-eqp second-txt-m-u">ШЭТ 210.05-0-ШЭРА</p>
+                            <p class="subtitle-eqp-m-u">Шкаф основных защит автотрансформатор</p>
+                            <div class="btn-eqp-m-u"></div>
+                            <div class="arrow-eqp-m-u"></div>
+                            <p class="arr-eqp-m-u">></p>
+                        </div>
+
+                        <div class="equipment third-e-m-u">
+                            <p class="text-eqp third-txt-m-u">ШЭТ 210.05-0-ШЭРА</p>
+                            <p class="subtitle-eqp-m-u">Шкаф основных защит автотрансформатор</p>
+                            <div class="btn-eqp-m-u"></div>
+                            <div class="arrow-eqp-m-u"></div>
+                            <p class="arr-eqp-m-u">></p>
+                        </div>
+
+                        <div class="equipment fourth-e-m-u">
+                            <p class="text-eqp fourth-txt-m-u">ШЭТ 210.05-0-ШЭРА</p>
+                            <p class="subtitle-eqp-m-u">Шкаф основных защит автотрансформатор</p>
+                            <div class="btn-eqp-m-u"></div>
+                            <div class="arrow-eqp-m-u"></div>
+                            <p class="arr-eqp-m-u">></p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div id="galery-mes-urala" class="variable-m-u">
+
+                    <div>
+                        <img src="" alt="" class="img-gal first-img-gal">
+                        <div class="darkbox-gal first-db-gal">
+                            <p class="text-gal">Наш специалист</p>
+                        </div>
+
+                        <img src="" alt="" class="img-gal second-img-gal">
+                        <div class="darkbox-gal second-db-gal">
+                            <p class="text-gal">Здание Радиус-Автоматика</p>
+                        </div>
+
+                        <img src="" alt="" class="img-gal third-img-gal">
+                        <div class="darkbox-gal third-db-gal">
+                            <p class="text-gal">Zae</p>
+                        </div>
+
+                        <img src="" alt="" class="img-gal fourth-img-gal">
+                        <div class="darkbox-gal fourth-db-gal">
+                            <p class="text-gal">Balsa</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+</body>
+
+<script src="JS/script.js"></script>
+
+</html>

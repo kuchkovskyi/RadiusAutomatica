@@ -1,0 +1,87 @@
+body { 
+    font-family: Arial;
+    margin: 0px !important;
+    height: 2160px;
+    width: 3840px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+}
+
+.menu-item {
+    float: left;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #3c405b;
+    background-color: #3c405b;
+    height: 259.35px;
+    width: 3830.4px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    box-shadow: 0px 7.98px 19.95px 0px #000000 25%;
+}
+
+.tablinks {
+    position: absolute;
+    width: 746.13px;
+    height: 257.355px;
+    top: 0px;
+    position: absolute;
+    left: 1560.09px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 109.725px;
+
+    color: #FFFFFF;
+}
+
+.first { left: 792.015px; }
+
+.second { left: 1538.145px; }
+
+.third { left: 2284.275px; }
+
+.fourth { left: 3030.405px; }
+
+.tablinks.active {
+    font-weight: 600;
+    position: absolute;
+    width: 746.13px;
+    height: 257.355px;
+    top: 0px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 47.4%, rgba(255, 255, 255, 0) 100%);
+    /* border: 2px solid; */
+    /* border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 51.56%, rgba(255, 255, 255, 0) 100%) !important; */
+}
+  
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 27.93px 31.92px;
+    transition: 0.3s;
+}
+
+.prikol {
+    position: absolute;
+    left: 250px;
+    bottom: 2300px;
+
+    height: 380px;
+    width: 430px;
+}
+
+.menu div.active {
+    background: #3C405B;
+    border: 13.965px solid #3C405B;
+    box-shadow: 0px 0px 27.93px rgba(255, 255, 255, 0.89);
+    border-radius: 50%;
+}

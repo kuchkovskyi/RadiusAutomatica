@@ -1,0 +1,113 @@
+/*---------------------LINES--------------------*/
+
+.line-c-m {
+    position: absolute;
+    height: 15.96px;
+    top: 454.86px;
+
+    background: #3C405B;
+    border-radius: 17.955px;
+}
+
+.first-c-m-l { left: 151.62px; width: 387.03px; }
+
+.second-c-m-l { width: 827.925px; left: 605.48px; }
+
+.third-c-m-l { width: 827.925px; left: 1504.23px; }
+
+.fourth-c-m-l { width: 827.925px; left: 2401.98px; }
+
+.fifth-c-m-l { width: 387.03px; left: 3307.71px; }
+
+/*---------------------POINTS--------------------*/
+
+.point-c-m {
+    position: absolute;
+    width: 65.835px;
+    height: 65.835px;
+    top: 418.95px;
+
+    border: 13.965px solid #3C405B;
+    border-radius: 50%;
+}
+
+.menu div.active {
+    background: #3C405B;
+    box-shadow: 0px 0px 27.93px rgba(255, 255, 255, 0.89);
+}
+
+.first-c-m-p { background-color: #ffffff; left: 532.665px; z-index: 1; }
+
+.second-c-m-p { left: 1420.44px; }
+
+.third-c-m-p { left: 2318.19px; }
+
+.fourth-c-m-p { left: 3221.925px; }
+
+/*---------------------TEXT--------------------*/
+
+.text-cm-m {
+    position: absolute;
+    width: 827.925px;
+    height: 67.83px;
+    top: 545px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-size: 59.85px;
+    line-height: 67.83px;
+
+    color: #3C405B;
+}
+
+.first-c-m-t { left: 299.25px; }
+
+.second-c-m-t { left: 1204.98px; }
+
+.third-c-m-t { left: 2262.33px; }
+
+.fourth-c-m-t { left: 3048.36px; }
+
+/*---------------------SLIDES--------------------*/
+
+.title-of-the-slide-c-m {
+    position: absolute;
+    width: 1596px;
+    height: 159.6px;
+    left: 271.32px;
+    top: 578.55px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 130px;
+    line-height: 159.6px;
+    text-align: center;
+    letter-spacing: 0.1995em;
+
+    color: #3C405B;
+}
+
+.text-of-the-slide-c-m {
+    position: absolute;
+    width: 1601.985px;
+    height: 1073.31px;
+    left: 281.295px;
+    top: 973.56px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 71.82px;
+    line-height: 81.795px;
+
+    color: #3C405B;
+}
+
+.image-of-the-slide-c-m {
+    position: absolute;
+    width: 1596px;
+    height: 1197px;
+    left: 2002.98px;
+    top: 730.17px;
+}

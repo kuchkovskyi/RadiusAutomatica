@@ -1,0 +1,65 @@
+/*----------------------------LINES--------------------------*/
+
+.news-line {
+    position: absolute;
+    height: 15.96px;
+    top: 454.86px;
+
+    background: #3C405B;
+    border-radius: 17.955px;
+}
+
+.first-n-l { width: 835.905px; left: 151.62px; }
+
+.second-n-l { width: 1741.635px; left: 1043.385px; }
+
+.third-n-l { width: 835.905px; left: 2858.84px; }
+
+/*----------------------------POINTS--------------------------*/
+
+.news-point {
+    position: absolute;
+    width: 65.835px;
+    height: 65.835px;
+    top: 418.95px;
+    border: 13.965px solid #3C405B;
+    border-radius: 50%;
+}
+
+.news-point:active, .news-point:focus {
+    background-color: #3C405B;
+    box-shadow: 0px 0px 27.93px rgba(255, 255, 255, 0.89);
+}
+
+.first-n-p {
+    left: 961.59px;
+    background: #3C405B;
+    box-shadow: 0px 0px 27.93px rgba(255, 255, 255, 0.89);
+}
+
+.second-n-p { left: 2777.04px; }
+
+/*----------------------------TEXT--------------------------*/
+
+.news-text {
+    position: absolute;
+    width: 594.51px;
+    height: 67.83px;
+    top: 478.8px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-size: 59.85px;
+    line-height: 67.83px;
+    text-align: center;
+
+    color: #3C405B;
+}
+
+.first-n-t { left: 722.19px; font-weight: bold; }
+
+.second-n-t { left: 2292.255px; width: 1041.39px; }
+
+/*----------------------------ELEMENTS--------------------------*/
+
+
