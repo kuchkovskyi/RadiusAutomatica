@@ -50,14 +50,11 @@ body {
 .fourth { left: 3030.405px; }
 
 .tablinks.active {
-    font-weight: 600;
-    position: absolute;
-    width: 746.13px;
-    height: 257.355px;
-    top: 0px;
+    font-weight: bold;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 47.4%, rgba(255, 255, 255, 0) 100%);
-    /* border: 2px solid; */
-    /* border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 51.56%, rgba(255, 255, 255, 0) 100%) !important; */
+
+    border-right: 1px solid #FFFFFF;
+    border-left: 1px solid #FFFFFF;
 }
   
 .tab button {

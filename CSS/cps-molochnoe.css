@@ -29,6 +29,7 @@
 
     border: 13.965px solid #3C405B;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .menu div.active {

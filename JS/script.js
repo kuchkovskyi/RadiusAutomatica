@@ -58,4 +58,17 @@ function chooseCpsVariable(event, variableCpsName) {
 }
 document.getElementById("defaultCPSOpen").click();
 
-
+function chooseNewsVariable(event, variableRza) {
+    var i, variablerza, point;
+    variablerza = document.getElementsByClassName("variable-rza");
+    for (i = 0; i < variablerza.length; i++) {
+        variablerza[i].style.display = "none";
+    }
+    point = document.getElementsByClassName("news-point");
+    for (i = 0; i < point.length; i++) {
+        point[i].className = point[i].className.replace(" active", "");
+    }
+    document.getElementById(variableRza).style.display = "block";
+    event.currentTarget.className += " active";
+}
+document.getElementById("defaultNewsOpen").click();

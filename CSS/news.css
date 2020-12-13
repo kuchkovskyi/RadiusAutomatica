@@ -24,18 +24,10 @@
     top: 418.95px;
     border: 13.965px solid #3C405B;
     border-radius: 50%;
+    cursor: pointer;
 }
 
-.news-point:active, .news-point:focus {
-    background-color: #3C405B;
-    box-shadow: 0px 0px 27.93px rgba(255, 255, 255, 0.89);
-}
-
-.first-n-p {
-    left: 961.59px;
-    background: #3C405B;
-    box-shadow: 0px 0px 27.93px rgba(255, 255, 255, 0.89);
-}
+.first-n-p { background-color: #ffffff; z-index: 1; left: 961.59px; }
 
 .second-n-p { left: 2777.04px; }
 
@@ -56,10 +48,6 @@
     color: #3C405B;
 }
 
-.first-n-t { left: 722.19px; font-weight: bold; }
+.first-n-t { left: 722.19px; }
 
 .second-n-t { left: 2292.255px; width: 1041.39px; }
-
-/*----------------------------ELEMENTS--------------------------*/
-
-
