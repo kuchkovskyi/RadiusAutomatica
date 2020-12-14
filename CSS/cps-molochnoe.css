@@ -26,6 +26,8 @@
     width: 65.835px;
     height: 65.835px;
     top: 418.95px;
+    background-color: #ffffff;
+    z-index: 1;
 
     border: 13.965px solid #3C405B;
     border-radius: 50%;
@@ -163,7 +165,8 @@
     left: 1200px;
     top: 1444px;
 
-    border: 4px solid #3C405B;
+    border: 3px solid #3C405B;
+    background-color: #3C405B;
 }
 
 .long-vert-line {
@@ -172,8 +175,9 @@
     height: 0px;
     left: 2070px;
     top: 1450px;
-    
-    border: 4px solid rgba(60, 64, 91, 0.9);
+
+    background-color: rgba(60, 64, 91, 0.9);
+    border: 3px solid rgba(60, 64, 91, 0.9);
     transform: rotate(90deg);   
 }
 

@@ -8,11 +8,10 @@ body {
     border-radius: 0px;
 }
 
-.menu-item {
-    float: left;
-}
+.menu-item { float: left; }
 
 .tab {
+    position: fixed;
     overflow: hidden;
     border: 1px solid #3c405b;
     background-color: #3c405b;
@@ -22,6 +21,7 @@ body {
     top: 0px;
     border-radius: 0px;
     box-shadow: 0px 7.98px 19.95px 0px #000000 25%;
+    z-index: 10;
 }
 
 .tablinks {
@@ -71,8 +71,9 @@ body {
     position: absolute;
     left: 250px;
     bottom: 2300px;
+    top: 0px;
 
-    height: 380px;
+    height: 270px;
     width: 430px;
 }
 
@@ -81,4 +82,14 @@ body {
     border: 13.965px solid #3C405B;
     box-shadow: 0px 0px 27.93px rgba(255, 255, 255, 0.89);
     border-radius: 50%;
+}
+
+.menu {
+    width: 3840px;
+    height: 350px;
+    margin-top: 200px;
+    
+
+    background-color: #ffffff !important;
+    z-index: 100;
 }

@@ -45,6 +45,8 @@
     height: 65.835px;
     top: 418.95px;
     cursor: pointer;
+    background-color: #FFFFFF;
+    z-index: 1;
 
     border-radius: 50%;
     border: 13.965px solid #3C405B;
