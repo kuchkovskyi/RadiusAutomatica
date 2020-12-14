@@ -1,7 +1,7 @@
 /*---------------------LINES--------------------*/
 
 .line-c-m {
-    position: absolute;
+    position: fixed;
     height: 15.96px;
     top: 454.86px;
 
@@ -22,7 +22,7 @@
 /*---------------------POINTS--------------------*/
 
 .point-c-m {
-    position: absolute;
+    position: fixed;
     width: 65.835px;
     height: 65.835px;
     top: 418.95px;
@@ -50,7 +50,7 @@
 /*---------------------TEXT--------------------*/
 
 .text-cm-m {
-    position: absolute;
+    position: fixed;
     width: 827.925px;
     height: 67.83px;
     top: 545px;

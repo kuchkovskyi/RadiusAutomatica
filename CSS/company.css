@@ -1,7 +1,7 @@
 /*---------------------LINES--------------------*/
 
 .line {
-    position: absolute;
+    position: fixed;
     width: 291.27px;
     height: 15.96px;
     top: 454.86px;
@@ -11,7 +11,7 @@
 }
 
 .first-line {
-    position: absolute;
+    position: fixed;
     width: 654.36px;
     height: 15.96px;
     left: 151.62px;
@@ -40,7 +40,7 @@
 /*---------------------POINTS--------------------*/
 
 .point {
-    position: absolute;
+    position: fixed;
     width: 65.835px;
     height: 65.835px;
     top: 418.95px;
@@ -80,7 +80,7 @@
 /*---------------------TEXT--------------------*/
 
 .text {
-    position: absolute;
+    position: fixed;
     width: 672.315px;
     height: 67.83px;
     

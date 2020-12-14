@@ -1,7 +1,7 @@
 /*----------------------------LINES--------------------------*/
 
 .news-line {
-    position: absolute;
+    position: fixed;
     height: 15.96px;
     top: 454.86px;
 
@@ -18,7 +18,7 @@
 /*----------------------------POINTS--------------------------*/
 
 .news-point {
-    position: absolute;
+    position: fixed;
     width: 65.835px;
     height: 65.835px;
     top: 418.95px;
@@ -34,7 +34,7 @@
 /*----------------------------TEXT--------------------------*/
 
 .news-text {
-    position: absolute;
+    position: fixed;
     width: 594.51px;
     height: 67.83px;
     top: 478.8px;

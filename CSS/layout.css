@@ -85,11 +85,12 @@ body {
 }
 
 .menu {
+    position: fixed;
     width: 3840px;
-    height: 350px;
-    margin-top: 200px;
+    height: 400px;
+    top: 260px;
     
 
     background-color: #ffffff !important;
-    z-index: 100;
+    z-index: 10;
 }

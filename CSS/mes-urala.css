@@ -1,7 +1,7 @@
 /*---------------------LINES--------------------*/
 
 .line-m-u {
-    position: absolute;
+    position: fixed;
     height: 15.96px;
     top: 454.86px;
 
@@ -9,10 +9,7 @@
     border-radius: 17.955px;
 }
 
-.first-l-m-u {
-    width: 231.42px;
-    left: 151.62px;
-}
+.first-l-m-u { width: 231.42px; left: 151.62px; }
 
 .second-l-m-u { width: 1428.42px; left: 458.85px; }
 
@@ -23,7 +20,7 @@
 /*---------------------POINTS--------------------*/
 
 .point-m-u {
-    position: absolute;
+    position: fixed;
     width: 65.835px;
     height: 65.835px;
     top: 418.95px;
@@ -42,7 +39,7 @@
 /*---------------------TEXT--------------------*/
 
 .text-m-u {
-    position: absolute;
+    position: fixed;
     width: 538.65px;
     height: 135.66px;
     top: 470.82px;
