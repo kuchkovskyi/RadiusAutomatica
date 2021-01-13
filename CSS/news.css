@@ -1,53 +1,35 @@
-/*----------------------------LINES--------------------------*/
-
-.news-line {
-    position: fixed;
-    height: 15.96px;
-    top: 454.86px;
-
-    background: #3C405B;
-    border-radius: 17.955px;
-}
-
-.first-n-l { width: 835.905px; left: 151.62px; }
-
-.second-n-l { width: 1741.635px; left: 1043.385px; }
-
-.third-n-l { width: 835.905px; left: 2858.84px; }
-
 /*----------------------------POINTS--------------------------*/
 
 .news-point {
     position: fixed;
-    width: 65.835px;
-    height: 65.835px;
-    top: 418.95px;
-    border: 13.965px solid #3C405B;
-    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    top: 18.15%;
     cursor: pointer;
+    background-color: #FFFFFF;
+    z-index: 2;
+
+    border-radius: 50%;
+    border: 4px solid #3C405B;
 }
 
-.first-n-p { background-color: #ffffff; z-index: 1; left: 961.59px; }
+.first-n-p { left: 33%; }
 
-.second-n-p { left: 2777.04px; }
+.second-n-p { left: 66%; }
 
 /*----------------------------TEXT--------------------------*/
 
-.news-text {
-    position: fixed;
-    width: 594.51px;
-    height: 67.83px;
-    top: 478.8px;
+.first-n-t { left: 28%; top: 20.5%; }
 
-    font-family: Arial;
-    font-style: normal;
-    font-size: 59.85px;
-    line-height: 67.83px;
-    text-align: center;
+.second-n-t { left: 56%; top: 20.5%; }
 
-    color: #3C405B;
+/*-----------------MEDIA------------------*/
+
+
+@media only screen and (width: 1920px) and (height: 1080px) {
+    .news-point { height: 34px; width: 34px; border: 8px solid #3c405b; }
 }
 
-.first-n-t { left: 722.19px; }
-
-.second-n-t { left: 2292.255px; width: 1041.39px; }
+@media only screen and (width: 3840px) and (height: 2160px) {
+    .news-point { height: 64px; width: 64px; border: 12px solid #3c405b; }
+}

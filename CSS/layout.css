@@ -1,8 +1,6 @@
 body { 
     font-family: Arial;
     margin: 0px !important;
-    height: 2160px;
-    width: 3840px;
     left: 0px;
     top: 0px;
     border-radius: 0px;
@@ -15,39 +13,54 @@ body {
     overflow: hidden;
     border: 1px solid #3c405b;
     background-color: #3c405b;
-    height: 259.35px;
-    width: 3830.4px;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     border-radius: 0px;
-    box-shadow: 0px 7.98px 19.95px 0px #000000 25%;
-    z-index: 10;
+    z-index: 12;
+
+    height: 10%;
+    width: 100%;
 }
 
 .tablinks {
     position: absolute;
-    width: 746.13px;
-    height: 257.355px;
-    top: 0px;
-    position: absolute;
-    left: 1560.09px;
-
     font-family: Arial;
     font-style: normal;
     font-weight: normal;
-    font-size: 80px;
-    line-height: 109.725px;
-
     color: #FFFFFF;
+    top: 0%;
+    border: none;
+    width: 20%;
+    padding: 10% 0;
+    font-size: 22px;
+    border-right: 1px solid #3c405b;
+    border-left: 1px solid #3c405b;
 }
 
-.first { left: 792.015px; }
+.prikol {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    height: 90%;
+}
 
-.second { left: 1538.145px; }
+.first { left: 19%; padding: 1.4% 3%; }
 
-.third { left: 2284.275px; }
+.second { left: 39%;  padding: 1.4% 3%; }
 
-.fourth { left: 3030.405px; }
+.third { left: 59%; padding: 0.6% 3%; }
+
+.fourth { left: 79%; padding: 0.6% 3%; }
+
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
 
 .tablinks.active {
     font-weight: bold;
@@ -56,41 +69,76 @@ body {
     border-right: 1px solid #FFFFFF;
     border-left: 1px solid #FFFFFF;
 }
-  
-.tab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 27.93px 31.92px;
-    transition: 0.3s;
+
+.menu {
+    position: fixed;
+    top: 10%;
+    width: 100%;
+    height: 20%;
+
+    background-color: #ffffff !important;
+    z-index: 10;
 }
 
-.prikol {
-    position: absolute;
-    left: 250px;
-    bottom: 2300px;
-    top: 0px;
+/*---------------------LINES--------------------*/
 
-    height: 270px;
-    width: 430px;
+.line {
+    position: fixed;
+    width: 96%;
+    height: 0.7%;
+    top: 20%;
+    left: 2%;
+    
+    background: #3C405B;
+    border-radius: 5px;
+}
+
+/*---------------------POINTS--------------------*/
+
+.point {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    top: 18.15%;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    z-index: 2;
+
+    border-radius: 50%;
+    border: 4px solid #3C405B;
 }
 
 .menu div.active {
     background: #3C405B;
-    border: 13.965px solid #3C405B;
-    box-shadow: 0px 0px 27.93px rgba(255, 255, 255, 0.89);
-    border-radius: 50%;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.89);
 }
 
-.menu {
+.text {
     position: fixed;
-    width: 3840px;
-    height: 400px;
-    top: 260px;
-    
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    color: #3C405B;
+}
 
-    background-color: #ffffff !important;
-    z-index: 10;
+/*-----------------MEDIA------------------*/
+
+@media only screen and (width: 1920px) and (height: 1080px) {
+    .tablinks { font-size: 38px; }
+
+    .first, .second { padding: 1.6% 3%; }
+
+    .point { height: 34px; width: 34px; border: 8px solid #3c405b; }
+
+    .text { font-size: 30px; }
+}
+
+@media only screen and (width: 3840px) and (height: 2160px) {
+    .tablinks { font-size: 70px; }
+
+    .first, .second { padding: 1.6% 3%; }
+
+    .point { height: 64px; width: 64px; border: 12px solid #3c405b; }
+
+    .text { font-size: 60px; }
 }

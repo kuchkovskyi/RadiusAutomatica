@@ -1,64 +1,61 @@
 .equipment {
     position: absolute;
-    width: 722px;
-    height: 722px;
+    width: 250px;
+    height: 250px;
 
     background: url(IMGS/2l_02_1.png), #3C405B;
-    border-radius: 2px;
 }
 
 .eqp-image {
     position: absolute;
-    left: 20px;
-    width: 550px;
-    height: 722px;
+    left: 1%;
+    width: 68%;
+    height: 250px;
     opacity: 0.2;
     z-index: 2;
 }
 
 .shet-image { left: 0px !important; }
 
-.first-machine-eqp { top: 780px; left: 240px; }
+.first-machine-eqp { top: 34%; left: 8%; }
 
-.second-machine-eqp { top: 780px; left: 1110px; }
+.second-machine-eqp { top: 34%; left: 30%; }
 
-.third-machine-eqp { top: 780px; left: 1980px; }
+.third-machine-eqp { top: 34%; left: 52%; }
 
-.fourth-machine-eqp { top: 780px; left: 2850px; }
+.fourth-machine-eqp { top: 34%; left: 74%; }
 
-.fifth-machine-eqp { top: 1637px; left: 240px; }
+.fifth-machine-eqp { top: 80%; left: 8%; }
 
-.sixth-machine-eqp { top: 1637px; left: 1110px; }
+.sixth-machine-eqp { top: 80%; left: 30%; }
 
-.seventh-machine-eqp { top: 1637px; left: 1980px; }
+.seventh-machine-eqp { top: 80%; left: 52%; }
 
-.eighth-machine-eqp { top: 1637px; left: 2850px; }
+.eighth-machine-eqp { top: 80%; left: 74%; }
 
-.nineth-machine-eqp { top: 2487px; left: 240px; }
+.nineth-machine-eqp { top: 126%; left: 8%; }
 
-.tenth-machine-eqp { top: 2487px; left: 1110px; }
+.tenth-machine-eqp { top: 126%; left: 30%; }
 
-.eleventh-machine-eqp { top: 2487px; left: 1980px; }
+.eleventh-machine-eqp { top: 126%; left: 52%; }
 
-.twelfth-machine-eqp { top: 2487px; left: 2850px; }
+.twelfth-machine-eqp { top: 126%; left: 74%; }
 
-.thirtynth-machine-eqp { top: 3337px; left: 240px; }
+.thirtynth-machine-eqp { top: 172%; left: 8%; }
 
-.fourtynth-machine-eqp { top: 3337px; left: 1110px; }
+.fourtynth-machine-eqp { top: 172%; left: 30%; }
 
-.fiftynth-machine-eqp { top: 3337px; left: 1980px; }
+.fiftynth-machine-eqp { top: 172%; left: 52%; }
 
-.sixtynth-machine-eqp { top: 3337px; left: 2850px; }
+.sixtynth-machine-eqp { top: 172%; left: 74%; }
 
 .title-eqp {
     position: relative;
-    font-family: Arial;
-    font-style: normal;
     font-weight: bold;
-    font-size: 70px;
-    line-height: 80px;
+    font-size: 22px;
+
     text-align: center;
-    letter-spacing: 0.1em;
+    letter-spacing: 3px;
     z-index: 3;
 
     color: #ffffff;
@@ -66,13 +63,12 @@
 
 .title-eqp-top {
     position: relative;
-    font-family: Arial;
-    font-style: normal;
+
     font-weight: bold;
-    font-size: 70px;
-    line-height: 80px;
+    font-size: 20px;
+
     text-align: center;
-    letter-spacing: 0.1em;
+    letter-spacing: 3px;
     z-index: 3;
     margin-bottom: 10px !important;
 
@@ -82,12 +78,11 @@
 .title-eqp-btm {
     top: 0px !important;
     position: relative;
-    font-family: Arial;
-    font-style: normal;
+
     font-weight: bold;
-    font-size: 70px;
+    font-size: 20px;
     text-align: center;
-    letter-spacing: 0.1em;
+    letter-spacing: 3px;
     z-index: 3;
     margin-top: 0px !important;
 
@@ -96,14 +91,11 @@
 
 .subtitle-eqp {
     position: absolute;
-    top: 245px;
+    top: 38%;
     text-align: center;
 
-    font-family: Arial;
-    font-style: normal;
     font-weight: normal;
-    font-size: 50px;
-    line-height: 65px;
+    font-size: 16px;
     display: flex;
     z-index: 3;
 
@@ -112,15 +104,12 @@
 
 .subtitle-eqp-sirius {
     position: absolute;
-    top: 200px;
-    left: 80px;
+    top: 30%;
+    left: 5%;
     text-align: center;
 
-    font-family: Arial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 50px;
-    line-height: 65px;
+    font-weight: 200;
+    font-size: 20px;
     display: flex;
     z-index: 3;
 
@@ -129,15 +118,12 @@
 
 .subtitle-eqp-sirius-2 {
     position: absolute;
-    top: 265px;
-    left: 80px;
+    top: 40%;
+    left: 5%;
     text-align: center;
 
-    font-family: Arial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 50px;
-    line-height: 65px;
+    font-weight: 200;
+    font-size: 20px;
     display: flex;
     z-index: 3;
 
@@ -146,15 +132,12 @@
 
 .subtitle-eqp-sirius-3 {
     position: absolute;
-    top: 330px;
-    left: 80px;
+    top: 50%;
+    left: 5%;
     text-align: center;
 
-    font-family: Arial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 50px;
-    line-height: 65px;
+    font-weight: 200;
+    font-size: 20px;
     display: flex;
     z-index: 3;
 
@@ -163,42 +146,41 @@
 
 .btn-eqp {
     position: absolute;
-    width: 592.515px;
-    height: 149.625px;
-    left: 60px;
-    top: 530px;
+    width: 90%;
+    height: 20%;
+    left: 5%;
+    top: 74%;
 
     border: 3px solid rgba(255, 255, 255, 0.8);
     box-sizing: border-box;
-    border-radius: 77px;
+    border-radius: 30px;
 }
 
 .arrow-eqp {
     position: absolute;
-    width: 314px;
-    left: 173px;
-    top: 605px;
-    height: 4px;
+    width: 50%;
+    left: 25%;
+    top: 84%;
+    height: 0.1%;
 
     opacity: 0.8;
     background-color: #ffffff;
-    border: 4px solid rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.8);
     box-sizing: border-box;
     z-index: 3;
 }
 
-.arrow-eqp-second-row { top: 608px !important; height: 0px !important; border: 2px #ffffff solid; }
+.arrow-eqp-second-row { top: 84% !important; height: 0px !important; border: 1px #ffffff solid; }
 
-.arrow-eqp-fourth-row { top: 606px !important; height: 0px !important; border: 2px #ffffff solid; }
+.arrow-eqp-fourth-row { top: 84.1% !important; height: 0px !important; border: 1px #ffffff solid; }
 
 .rectangle-arr {
     position: absolute;
-    width: 55px;
-    height: 55px;
-    left: 414px;
-    top: 580px;
+    width: 15px;
+    height: 15px;
+    left: 66%;
+    top: 80.6%;
     z-index: 1;
-    border-radius: 4px;
     border: 1px solid #3C405B;
     
     background: #3C405B;
@@ -207,15 +189,71 @@
 
 .rectangle-arr-one {
     position: absolute;
-    width: 50px;
-    height: 50px;
-    left: 426px;
-    top: 582px;
-    border-radius: 4px;
+    width: 15px;
+    height: 15px;
+    left: 67%;
+    top: 80.6%;
     border: 1px solid #ffffff;
     
     background: #ffffff;
     transform: rotate(-45deg);
 }
 
-.rectangle-arr-fourth-row { top: 578px !important; }
+
+/*-----------------MEDIA------------------*/
+
+@media only screen and (width: 1920px) and (height: 1080px) { 
+    .equipment { width: 350px; height: 350px; }
+
+    .fifth-machine-eqp, .sixth-machine-eqp,
+    .seventh-machine-eqp, .eighth-machine-eqp
+    { top: 70%; }
+
+    .nineth-machine-eqp, .tenth-machine-eqp,
+    .eleventh-machine-eqp, .twelfth-machine-eqp { top: 106%; }
+
+    .thirtynth-machine-eqp, .fourtynth-machine-eqp,
+    .fiftynth-machine-eqp, .sixtynth-machine-eqp { top: 142%; }
+
+    .rectangle-arr, .rectangle-arr-one { width: 23px; height: 23px; }
+
+    .title-eqp { font-size: 30px; }
+
+    .subtitle-eqp-sirius,
+    .subtitle-eqp-sirius-2,
+    .subtitle-eqp-sirius-3
+    { font-size: 28px; }
+
+    .title-eqp-top { font-size: 30px; }
+
+    .title-eqp-btm, .subtitle-eqp { font-size: 28px; }
+}
+
+/*-----------------MEDIA------------------*/
+
+@media only screen and (width: 3840px) and (height: 2160px) {
+    .equipment { width: 700px; height: 700px; }
+
+    .fifth-machine-eqp, .sixth-machine-eqp,
+    .seventh-machine-eqp, .eighth-machine-eqp
+    { top: 70%; }
+
+    .nineth-machine-eqp, .tenth-machine-eqp,
+    .eleventh-machine-eqp, .twelfth-machine-eqp { top: 106%; }
+
+    .thirtynth-machine-eqp, .fourtynth-machine-eqp,
+    .fiftynth-machine-eqp, .sixtynth-machine-eqp { top: 142%; }
+
+    .rectangle-arr, .rectangle-arr-one { width: 50px; height: 50px; }
+
+    .title-eqp { font-size: 60px; }
+
+    .subtitle-eqp-sirius,
+    .subtitle-eqp-sirius-2,
+    .subtitle-eqp-sirius-3
+    { font-size: 58px; }
+
+    .title-eqp-top { font-size: 60px; }
+
+    .title-eqp-btm, .subtitle-eqp { font-size: 58px; }
+}
